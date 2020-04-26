@@ -1,0 +1,13 @@
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.exe
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.deps.json
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.runtimeconfig.json
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.runtimeconfig.dev.json
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.dll
+C:\Users\Shawlaa\Desktop\NumberGame\bin\Debug\netcoreapp3.1\NumberGame.pdb
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.csprojAssemblyReference.cache
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.csproj.CoreCompileInputs.cache
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.AssemblyInfoInputs.cache
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.AssemblyInfo.cs
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.dll
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.pdb
+C:\Users\Shawlaa\Desktop\NumberGame\obj\Debug\netcoreapp3.1\NumberGame.genruntimeconfig.cache
