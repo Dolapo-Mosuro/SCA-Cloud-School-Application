@@ -1,4 +1,7 @@
-# SCA Cloud School Application
+#Jenkins pipeline syntax used for defining JenkinsFile.
+
+Source(git) ----Build/package --Deploy.
+# SCA Cloud School Application Process
 1. Created a cloud account with AWS free tier subscription.
 2. Created an instance. 
 
@@ -6,7 +9,7 @@
 
 3. Downloaded and installed Jenkins on my local machine to run on the default port 8080.
 
-![image](https://user-images.githubusercontent.com/54285015/126900648-9b577915-87f9-4ee2-89a6-0bdede9e7d03.png)
+![image](https://user-images.githubusercontent.com/54285015/126900912-154097b1-2e5f-49ac-a43a-718ee2413966.png)
 
 4. Created this SCA Cloud School Application repository Using a C# Number Guessing Game.
 
@@ -24,4 +27,5 @@
 http://localhost:8080/job/SCA%20cloud%20bootcamp%20Application/
 
 Username: Oluwadolamipo 
+
 Password:4Krist!!
