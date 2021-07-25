@@ -6,6 +6,31 @@ Source(git): First, Write a code and send to repository.
 Build/package: Then it is triggered in a Build automation framework. When it is complete, it triggers a test automation framework where all are executed one-by-one. Once the test cases passes, the server will be configured.
 
 Deploy: Then the Application package will be deployed on the service. 
+pipeline {
+    ...
+
+    agent none 
+stages {
+    stage('Example Build') {
+    
+        steps {
+          //'
+        }
+    }
+    stage('Example Test') {
+        steps {
+          //
+        }
+    }
+     
+    stage('Example Deploy') {
+    
+        steps {
+          //'
+        }
+    }
+}
+
 
 
 # SCA Cloud School Application Process
