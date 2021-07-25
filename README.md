@@ -1,6 +1,13 @@
 #Jenkins pipeline syntax used for defining JenkinsFile.
 
-Source(git) ----Build/package --Deploy.
+
+Source(git): First, Write a code and send to repository. 
+
+Build/package: Then it is triggered in a Build automation framework. When it is complete, it triggers a test automation framework where all are executed one-by-one. Once the test cases passes, the server will be configured.
+
+Deploy: Then the Application package will be deployed on the service. 
+
+
 # SCA Cloud School Application Process
 1. Created a cloud account with AWS free tier subscription.
 2. Created an instance. 
