@@ -1,7 +1,7 @@
 # SCA Cloud School Application
 1. Created a cloud account with AWS free tier subscription.
 2. Created an instance.
-![image](https://user-images.githubusercontent.com/54285015/126899820-4c48c8fe-eb5e-4979-bcf2-8205005bf846.png)
+![image](https://user-images.githubusercontent.com/54285015/126900449-6eeb6c63-a447-4c77-bcb8-8b5c8721cd6e.png)
 
 3. Downloaded and installed Jenkins on my local machine to run on the default port 8080.
 ![image](https://user-images.githubusercontent.com/54285015/126899864-8067e45d-aa13-4a19-b53d-1c51ddae3900.png)
