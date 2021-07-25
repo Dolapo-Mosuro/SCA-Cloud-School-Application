@@ -6,27 +6,36 @@ Source(git): First, Write a code and send to repository.
 Build/package: Then it is triggered in a Build automation framework. When it is complete, it triggers a test automation framework where all are executed one-by-one. Once the test cases passes, the server will be configured.
 
 Deploy: Then the Application package will be deployed on the service. 
-pipeline {
-    ...
 
-    agent none 
-stages {
-    stage('Example Build') {
-    
-        steps {
-          //'
-        }
+pipeline {
+    agent any
+
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "M3"
     }
-    stage('Example Test') {
-        steps {
-          //
-        }
-    }
-     
-    stage('Example Deploy') {
-    
-        steps {
-          //'
+
+    stages {
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+
+                // Run Maven on a Unix agent.
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+
+            post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                success {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
+                }
+            }
         }
     }
 }
